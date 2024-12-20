@@ -1,5 +1,7 @@
 #stats.py
 
+from collections import Counter
+
 def mean(numbers):
     return sum(numbers) / len(numbers)
 
@@ -16,4 +18,19 @@ def median(numbers):
         return sorted_number[mid]
 
 def mode(numbers):
-    return max(set(numbers), key=numbers.count)
+    if not numbers:
+        raise ValueError("The input list is empty")
+
+    counts = Counter(numbers)
+    max_count = max(counts.value())
+
+    modes = []
+    for num, count in counts.item():
+        if count == max_count:
+            modes.append(num)
+    
+    # return a single mode if there is only one, otherwise return the list of modes
+    if len(modes) == 1:
+        return modes[0]
+    else:
+        return modes
