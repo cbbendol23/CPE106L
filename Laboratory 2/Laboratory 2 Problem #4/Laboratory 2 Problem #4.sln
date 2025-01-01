@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Laboratory 2 Problem #4", "Laboratory 2 Problem #4\Laboratory 2 Problem #4.pyproj", "{A2CA35DD-C5A8-4A48-A0D6-5B1A348BFCA8}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Laboratory 2 Problem #5", "Laboratory 2 Problem #5\Laboratory 2 Problem #5.pyproj", "{57DF69F0-D906-47F5-AB0D-7EC0F6DDC970}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +13,6 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A2CA35DD-C5A8-4A48-A0D6-5B1A348BFCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A2CA35DD-C5A8-4A48-A0D6-5B1A348BFCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57DF69F0-D906-47F5-AB0D-7EC0F6DDC970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57DF69F0-D906-47F5-AB0D-7EC0F6DDC970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
